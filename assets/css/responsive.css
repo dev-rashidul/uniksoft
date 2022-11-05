@@ -6,6 +6,14 @@
     font-size: 16px;
     padding-top: 20px;
   }
+
+  .single-plan {
+    margin: 50px 10px;
+  }
+
+  .pricing-plan-top h2 {
+    font-size: 60px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -25,6 +33,19 @@
   .button-outline {
     font-size: 16px;
     padding: 17px 25px;
+  }
+
+  .company-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .company-top h3,
+  .pricing-top h3 {
+    font-size: 30px;
+  }
+
+  .single-plan {
+    margin: 50px 10px;
   }
 }
 
@@ -65,5 +86,28 @@
   .button-outline {
     font-size: 16px;
     padding: 17px 25px;
+  }
+
+  #Company {
+    padding: 0;
+  }
+
+  .company-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .company-top h3,
+  .pricing-top h3,
+  .pricing-plan-top h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .single-plan {
+    margin: 50px 10px;
+  }
+
+  .pricing-plan-top h2 {
+    font-size: 48px;
   }
 }
