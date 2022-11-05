@@ -1,0 +1,69 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h2 {
+    font-size: 42px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content h2 {
+    font-size: 30px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .hero-buttons {
+    padding-top: 30px;
+  }
+
+  .button-fill,
+  .button-outline {
+    font-size: 16px;
+    padding: 17px 25px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-wrapper {
+    padding-top: 100px;
+  }
+
+  .navbar-nav {
+    padding-top: 20px;
+  }
+
+  .nav-link,
+  .nav-link:hover {
+    padding: 12px 0 !important;
+  }
+
+  .nav-btn {
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .hero-buttons {
+    padding-top: 30px;
+  }
+
+  .button-fill,
+  .button-outline {
+    font-size: 16px;
+    padding: 17px 25px;
+  }
+}

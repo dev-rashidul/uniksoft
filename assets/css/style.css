@@ -1,0 +1,145 @@
+/* Base Styles Start */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Archivo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Base Styles End */
+
+/* Header Part CSS Start */
+
+/* Navigation Menu Section CSS Start */
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 0;
+}
+
+.nav-link,
+.nav-link:hover {
+  font-family: "Archivo", sans-serif;
+  color: #666666;
+  padding: 12px 25px !important;
+}
+
+.nav-btn a,
+.nav-btn a:hover {
+  background: #2167f3;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Navigation Menu Section CSS End */
+
+/* Hero Section CSS Start */
+
+#Hero {
+  margin-bottom: 100px;
+}
+
+.hero-wrapper {
+  background: #2167f3;
+  padding-top: 160px;
+  margin-top: 64px;
+}
+
+.hero-shape {
+  background: url(../images/hero-shape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 275px;
+  margin-top: -110px;
+}
+
+.hero-content h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.hero-content p {
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #f2f6fe;
+  padding-top: 25px;
+}
+
+.hero-buttons {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.button-fill,
+.button-fill:hover {
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  background: #ffffff;
+  color: #2167f3;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 24px 40px;
+  margin-right: 20px;
+}
+
+.button-outline,
+.button-outline:hover {
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 24px 40px;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
