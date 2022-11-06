@@ -14,6 +14,11 @@
   .pricing-plan-top h2 {
     font-size: 60px;
   }
+
+  .features-content-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 80px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -46,6 +51,11 @@
 
   .single-plan {
     margin: 50px 10px;
+  }
+
+  .features-content-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
   }
 }
 
@@ -154,5 +164,31 @@
   .hosting-shape3 {
     left: auto;
     right: -55px;
+  }
+
+  .services-buttons .nav {
+    max-width: 333px;
+  }
+
+  .services-buttons .nav-link,
+  .services-buttons .nav-link.active {
+    font-size: 16px;
+    padding: 19px !important;
+  }
+
+  .services-content h6 {
+    font-size: 22px;
+  }
+
+  .services-content p {
+    font-size: 18px;
+  }
+
+  .features-content-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .features-buttons .nav-link {
+    margin: 0 auto 30px;
   }
 }

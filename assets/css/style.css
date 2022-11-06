@@ -511,4 +511,191 @@ li {
 
 /* Hosting Section CSS End */
 
+/* Services Section CSS Start */
+
+.services-buttons {
+  padding-bottom: 50px;
+}
+
+.services-buttons .nav {
+  max-width: 410px;
+  margin: auto;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 2px 2px 37px rgba(0, 0, 0, 0.14);
+  border-radius: 50px;
+}
+
+.services-buttons .nav-link {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding: 20px 30px !important;
+}
+
+.services-buttons .nav-link.active {
+  background: #3189f9;
+  padding: 20px 30px !important;
+  border-radius: 50px;
+}
+
+.services-content h6 {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.services-content h6::after {
+  position: absolute;
+  content: "";
+  width: 140px;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+  border-radius: 23px;
+}
+
+.services-content p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.69);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.services-content a,
+.services-content a:hover {
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  background: #3189f9;
+  color: #ffffff;
+  border: 1px solid #3189f9;
+  border-radius: 4px;
+  padding: 20px 40px;
+  margin-right: 20px;
+}
+
+/* Services Section CSS End */
+
+/* Features Section CSS Start */
+
+.features-wrapper {
+  background: rgba(0, 0, 0, 0.69);
+  padding: 60px 0 30px;
+}
+
+.features-top {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.features-top h5 {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #000000;
+}
+
+.features-top p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.features-buttons .nav {
+  display: block !important;
+}
+
+.features-buttons .nav-link {
+  position: relative;
+  width: 260px;
+  height: 80px;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: #ffffff;
+  background: transparent;
+  padding: 20px 50px !important;
+  margin-bottom: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+.features-buttons .nav-link::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: -20px;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 19px;
+}
+
+.features-buttons .nav-link.active {
+  background: #3189f9;
+}
+
+.features-buttons .nav-link.active::before {
+  background: #ffffff;
+}
+
+.features-content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 80px;
+}
+
+.features-content h6 {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.features-content h6::before {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 19px;
+}
+
+.features-content p {
+  font-family: "Poppins";
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.features-shape {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* Features Section CSS End */
+
 /* Main Part CSS End */
