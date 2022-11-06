@@ -70,7 +70,7 @@
   }
 
   .hero-content h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .hero-content p {
@@ -109,5 +109,50 @@
 
   .pricing-plan-top h2 {
     font-size: 48px;
+  }
+
+  .backup-storage-top p {
+    font-size: 20px;
+  }
+
+  .backup-storage-top h4::before,
+  .backup-storage-top h4::after {
+    width: 65px;
+  }
+
+  .backup-storage-top h4::before {
+    top: 15px;
+    left: -1px;
+  }
+
+  .backup-storage-top h4::after {
+    top: 15px;
+    right: -2px;
+  }
+
+  .backup-storage-container {
+    padding: 30px 25px;
+  }
+
+  .backup-storage-plans li {
+    font-size: 20px;
+  }
+
+  .hosting-top h2 {
+    font-size: 30px;
+  }
+
+  .hosting-top::after {
+    width: 150px;
+  }
+
+  .hosting-content p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .hosting-shape3 {
+    left: auto;
+    right: -55px;
   }
 }

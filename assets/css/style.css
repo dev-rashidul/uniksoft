@@ -363,6 +363,152 @@ li {
   color: rgba(0, 0, 0, 0.83);
 }
 
+/* Backup Storage CSS */
+
+.backup-storage-top {
+  padding: 50px 0;
+}
+
+.backup-storage-top p {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #000000;
+}
+
+.backup-storage-top h4 {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.backup-storage-top h4::before,
+.backup-storage-top h4::after {
+  position: absolute;
+  content: "";
+  width: 250px;
+  height: 3px;
+  background: #3189f9;
+  border-radius: 50px;
+}
+
+.backup-storage-top h4::before {
+  top: 15px;
+  left: -115px;
+}
+
+.backup-storage-top h4::after {
+  top: 15px;
+  right: -115px;
+}
+
+.backup-storage-container {
+  background: rgba(49, 137, 249, 0.08);
+  border: 3px solid rgba(49, 137, 249, 0.23);
+  border-radius: 18px;
+  padding: 45px 60px;
+}
+
+.backup-storage-plans li {
+  font-family: "Archivo";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000000;
+  padding: 25px 0;
+}
+
+.backup-storage-plans li img {
+  padding-right: 15px;
+}
+
 /* Pricing Section CSS End */
+
+/* Hosting Section CSS Start */
+
+.hosting-wrapper {
+  background: #3189f9;
+  padding: 80px 0;
+}
+
+.hosting-bg {
+  background: url(../images/hosting-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 275px;
+  margin-top: -110px;
+}
+
+.hosting-top {
+  margin-bottom: 80px;
+}
+
+.hosting-top::after {
+  position: absolute;
+  content: "";
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 200px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 17px;
+}
+
+.hosting-top h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.hosting-content p {
+  max-width: 600px;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.hosting-img h6 {
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.hosting-shape1 {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.hosting-shape2 {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+}
+
+.hosting-shape3 {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* Hosting Section CSS End */
 
 /* Main Part CSS End */
