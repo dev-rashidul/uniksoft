@@ -698,4 +698,197 @@ li {
 
 /* Features Section CSS End */
 
+/* Support Section CSS Start */
+
+.support-content h6 {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.support-content h4 {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 600;
+  color: #283646;
+}
+
+.support-content p {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 165%;
+  color: rgba(0, 0, 0, 0.73);
+  padding: 10px 0 50px;
+}
+
+.support-content a,
+.support-content a:hover {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  background: transparent;
+  color: #242424;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+
+/* Support Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-top {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.testimonial-top h2 {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #333333;
+}
+
+.testimonial-container::after {
+  position: absolute;
+  content: "";
+  width: 170px;
+  height: 170px;
+  right: -60px;
+  bottom: -60px;
+  background: #3189f9;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #ffffff;
+  box-shadow: 2px 2px 29px rgba(0, 0, 0, 0.17);
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+
+.testimonial-container .col-md-4 {
+  display: flex;
+}
+
+.testimonial-content {
+  flex: 1;
+}
+
+.client-info img {
+  width: 85px;
+  height: 85px;
+  padding: 5px;
+  border: 2px solid #3189f9;
+  border-radius: 50%;
+}
+
+.client-info h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.71);
+  padding-left: 10px;
+}
+
+.testimonial-item p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  padding-top: 25px;
+}
+
+.client-country h5 {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.client-country h5::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 4px;
+  left: 0;
+  bottom: -10px;
+  background: rgba(0, 0, 0, 0.73);
+}
+
+/* Testimonial Section CSS End */
+
+/* Faq Section CSS Start */
+
+.faq-top {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.faq-top h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  color: #222222;
+}
+
+.faq-top p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #838383;
+  padding-top: 10px;
+}
+
+.accordion-button {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #222222;
+  padding: 40px 0 15px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #222222;
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.accordion-body p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #838383;
+}
+
+/* Faq Section CSS End */
+
 /* Main Part CSS End */

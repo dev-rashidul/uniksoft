@@ -57,6 +57,11 @@
     grid-template-columns: repeat(1, 1fr);
     padding-left: 120px;
   }
+
+  .testimonial-top h2,
+  .faq-top h2 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -190,5 +195,16 @@
 
   .features-buttons .nav-link {
     margin: 0 auto 30px;
+  }
+
+  .testimonial-top h2,
+  .faq-top h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .testimonial-container::after {
+    right: 0;
+    bottom: -18px;
   }
 }
