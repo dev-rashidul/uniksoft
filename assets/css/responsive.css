@@ -19,6 +19,21 @@
     grid-template-columns: repeat(1, 1fr);
     padding-left: 80px;
   }
+
+  .sign-up h2 {
+    font-size: 32px;
+  }
+
+  .promotion-buttons {
+    flex-direction: column;
+  }
+
+  .get-started,
+  .contact-btn {
+    width: 220px;
+    margin: 10px auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -206,5 +221,24 @@
   .testimonial-container::after {
     right: 0;
     bottom: -18px;
+  }
+
+  .promotion-wrapper {
+    margin: 80px 0 0;
+  }
+
+  .sign-up h2 {
+    font-size: 30px;
+  }
+
+  .promotion-buttons {
+    flex-direction: column;
+  }
+
+  .get-started,
+  .contact-btn {
+    width: 220px;
+    margin: 10px auto;
+    text-align: center;
   }
 }
