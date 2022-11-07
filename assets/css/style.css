@@ -900,6 +900,7 @@ li {
   border-radius: 5px;
   margin: 80px 20px 0;
   padding: 60px;
+  z-index: 1;
 }
 
 .promotion-overly {
@@ -911,6 +912,7 @@ li {
   height: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .sign-up h2 {
